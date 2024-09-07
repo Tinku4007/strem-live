@@ -9,7 +9,7 @@ const io = new Server(server, {
         origin: '*',
         methods: ['GET', 'POST']
     }
-});
+}); 
 
 app.use(cors({
     origin: '*',
